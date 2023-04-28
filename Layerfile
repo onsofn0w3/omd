@@ -4,7 +4,7 @@ FROM vm/ubuntu:22.04
 
 
 # Install python
-RUN apt-get update && apt-get install python3 git python3-pip chromium-browser
+RUN apt-get update && apt-get install python3 git python3-pip chromium
 
 # RUN git clone https://github.com/malwaredllc/byob
 # Create some files
