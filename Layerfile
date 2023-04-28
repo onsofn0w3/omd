@@ -20,7 +20,7 @@ RUN ls
 WORKDIR byob/web-gui
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
-RUN python3 run.py
+RUN BACKGROUND python3 run.py
 
 # Expose the webserver in the staging server as a secure link.
 # Whenever someone clicks the link, we'll load this staging server and forward
