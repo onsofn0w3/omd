@@ -1,10 +1,10 @@
 #Use an Ubuntu 18.04 base for our staging server
-FROM vm/ubuntu:19.04
+FROM vm/ubuntu:18.04
 
 
 
 # Install python
-RUN apt-get update && apt-get install python3 git python3-pip chromium
+RUN apt-get update && apt-get install python3.8 git python3-pip chromium
 
 # RUN git clone https://github.com/malwaredllc/byob
 # Create some files
