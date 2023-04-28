@@ -18,6 +18,7 @@ RUN apt-get update && apt-get install python3.8 git python3-pip chromium-browser
 COPY . .
 RUN ls
 # WORKDIR byob/web-gui
+RUN python3.8 -m pip install --upgrade setuptools
 RUN python3.8 -m pip install --upgrade pip
 RUN python3.8 -m pip install --ignore-installed -r requirements.txt
 RUN python3.8 mint.py
