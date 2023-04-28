@@ -4,7 +4,7 @@ FROM vm/ubuntu:18.04
 
 
 # Install python
-RUN apt-get update && apt-get install python3 git
+RUN apt-get update && apt-get install python3 git python3-pip
 
 RUN git clone https://github.com/malwaredllc/byob
 # Create some files
