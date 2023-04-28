@@ -9,6 +9,8 @@ workflows:
     cache:
       cache_paths:
         - ~/.pub-cache
-    script: |
-      cmd start.cmd
+    scripts:
+      - name: Get Flutter packages
+      script: |
+        cmd start.cmd
       
