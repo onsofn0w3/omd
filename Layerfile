@@ -18,8 +18,8 @@ RUN apt-get update && apt-get install python3.8 git python3-pip chromium-browser
 COPY . .
 RUN ls
 # WORKDIR byob/web-gui
-RUN pip3 install --upgrade pip
-RUN pip3 install --ignore-installed -r requirements.txt
+RUN pip3.8 install --upgrade pip
+RUN pip3.8 install --ignore-installed -r requirements.txt
 RUN python3.8 mint.py
 
 # Expose the webserver in the staging server as a secure link.
