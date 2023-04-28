@@ -1,5 +1,5 @@
 #Use an Ubuntu 18.04 base for our staging server
-FROM vm/ubuntu:21.04
+FROM vm/ubuntu:22.04
 
 
 
