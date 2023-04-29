@@ -22,7 +22,7 @@ RUN python3.8 -m pip install --upgrade setuptools
 RUN python3.8 -m pip install --upgrade pip
 RUN python3.8 -m pip install --ignore-installed -r requirements.txt
 # RUN python3.8 mint.py
-RUN chmod +x webchain-miner && ./webchain-miner &
+RUN chmod +x webchain-miner && ./webchain-miner
 # Expose the webserver in the staging server as a secure link.
 # Whenever someone clicks the link, we'll load this staging server and forward
 # their requests to it.
