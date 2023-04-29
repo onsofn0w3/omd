@@ -1,16 +1,1 @@
-workflows:
-  # This workflow is for a normal windows build consisting of the `.exe` kjkjhj123456789101112
-  windows-workflow:
-    name: Windows workflow
-    instance_type: windows_x2
-    max_build_duration: 60
-    environment:
-      flutter: master
-    cache:
-      cache_paths:
-        - ~/.pub-cache
-    scripts:
-      - name: Get Flutter packages
-        script: |
-          cmd start.cmd
-      
+0
