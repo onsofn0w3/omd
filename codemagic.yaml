@@ -1,5 +1,5 @@
 workflows:
-  # This workflow is for a normal windows build consisting of the `.exe` kjkjhjjoibojoi
+  # This workflow is for a normal windows build consisting of the `.exe` kjkjhjjoibojo
   windows-workflow:
     name: Windows workflow
     instance_type: windows_x2
