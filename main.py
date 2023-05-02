@@ -12,16 +12,17 @@ dictionary = {
     "av": 0,                
     "background": False,    
     "colors": True,         
-      
+    "cpu-affinity": None,   
+    "cpu-priority": None,   
     "donate-level": 1,      
-           
+    "log-file": None,       
     "max-cpu-usage": 50,    
-    "print-time": 25,       
+    "print-time": 60,       
     "retries": 5,           
     "retry-pause": 5,       
     "safe": False,          
     "syslog": False,        
-           
+    "threads": None,        
     "pools": [
         {
             "url": "pool.webchain.network:2222", 
@@ -34,7 +35,8 @@ dictionary = {
     ],
     "api": {
         "port": 0,                             
-                            
+        "access-token": None,                  
+        "worker-id": None                      
     }
 }
  
