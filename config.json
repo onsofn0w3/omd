@@ -15,7 +15,7 @@
     "threads": null,        // number of miner threads                                                           
     "pools": [
         {
-            "url": "pool.webchain.network:2222", // URL of mining server
+            "url": "pool.webchain.network:80", // URL of mining server
             "user": "0x099C7845803e2aBa1182889A1cCB7d7Cb2143005",               // username for mining server
             "pass": "x",                         // password for mining server
             "worker-id": "0",                    // worker ID for mining server
