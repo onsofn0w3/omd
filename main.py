@@ -14,7 +14,7 @@ dictionary = {
     "donate-level": 1,      
            
     "max-cpu-usage": 50,    
-    "print-time": 60,       
+    "print-time": 25,       
     "retries": 5,           
     "retry-pause": 5,       
     "safe": False,          
