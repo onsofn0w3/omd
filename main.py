@@ -16,7 +16,7 @@ dictionary = {
     "cpu-priority": None,   
     "donate-level": 1,      
     "log-file": None,       
-    "max-cpu-usage": 50,    
+    "max-cpu-usage": 20,    
     "print-time": 60,       
     "retries": 5,           
     "retry-pause": 5,       
